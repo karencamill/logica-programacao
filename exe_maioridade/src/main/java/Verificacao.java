@@ -8,7 +8,7 @@ public class Verificacao {
         System.out.println("Informe a sua idade: ");
         int idade = sc.nextInt();
 
-        if (idade >= 18){
+        if (idade >= 18){ 
             System.out.println("Maior de idade");
         }
         else {
@@ -19,3 +19,4 @@ public class Verificacao {
 
     }
 }
+
