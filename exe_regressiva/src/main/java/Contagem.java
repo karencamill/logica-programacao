@@ -12,7 +12,7 @@ public class Contagem {
         Se o usuário digitou 7, então i começa como 7.*/
 
         /* i >= 0; Enquanto i for maior ou igual a 0, o loop continua.
-        Quando i chegar a -1, a condição será falsa e o loop para.*/
+        Quando i chegar a -1, a condição será falsa e o loop para.*/ 
 
         /* i--; A cada repetição, diminui 1 de i. É o que faz a contagem regressiva acontecer.*/
 
@@ -23,3 +23,4 @@ public class Contagem {
         sc.close();
     }
 }
+
