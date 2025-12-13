@@ -14,3 +14,15 @@ public class Tabu {
         sc.close();
     }
 }
+
+/* Tabuada — Resposta (escrita)
+
+Ler um número informado pelo usuário.
+Iniciar um contador começando em 1.
+Enquanto o contador for menor ou igual a 10:
+Multiplicar o número informado pelo valor do contador.
+Mostrar o resultado da multiplicação.
+Aumentar o contador em 1.
+Encerrar o processo após mostrar a multiplicação por 10.
+*/
+
