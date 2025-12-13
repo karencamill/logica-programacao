@@ -20,10 +20,11 @@ public class Verificacao {
     }
 }
 
+/* 1 - Verificação de maioridade > Peça ao usuário a idade. Informe se ele é maior de idade ou menor de idade.
 
-/*Verificação de maioridade — Resposta
-
+Verificação de maioridade — Resposta
 Ler a idade.
 Se a idade for maior ou igual a 18, exibir “maior de idade”.
 Caso contrário, exibir “menor de idade”.
 */
+
