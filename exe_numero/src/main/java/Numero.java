@@ -22,11 +22,13 @@ public class Numero {
     }
 }
 
-/* Número positivo, negativo ou zero — Resposta
+/* 2 - Número positivo, negativo ou zero > Solicite um número e indique se ele é positivo, negativo ou igual a zero.
 
+Número positivo, negativo ou zero — Resposta
 Ler um número.
 Se o número for igual a zero, exibir “zero”
 Se o número for maior que zero, exibir “positivo”.
 Se for menor que zero, exibir “negativo”.
 */
+
 
