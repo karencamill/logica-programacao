@@ -27,11 +27,13 @@ public class Soma {
 }
 
 
-/*Soma dos números até N — Resposta
+/* 4 - Soma dos números até N > Solicite um número inteiro N e calcule a soma de todos os números de 1 até N.
 
+Soma dos números até N — Resposta
 Ler um número inteiro NUM informado pelo usuário.
 Criar uma variável para acumular a soma, começando em 0.
 Repetir um processo que começa em 1 e vai até NUM, adicionando cada número à soma.
 Ao final, exibir o valor total somado.
 */
+
 
