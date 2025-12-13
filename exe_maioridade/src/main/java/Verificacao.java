@@ -19,3 +19,11 @@ public class Verificacao {
 
     }
 }
+
+
+/*Verificação de maioridade — Resposta
+
+Ler a idade.
+Se a idade for maior ou igual a 18, exibir “maior de idade”.
+Caso contrário, exibir “menor de idade”.
+*/
