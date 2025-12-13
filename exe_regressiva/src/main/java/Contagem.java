@@ -24,3 +24,13 @@ public class Contagem {
     }
 }
 
+/* Contagem regressiva — Resposta (sem código)
+
+Ler um número inteiro positivo informado pelo usuário.
+Iniciar uma contagem a partir desse número.
+Repetir diminuindo 1 a cada passo.
+Continuar até chegar ao zero.
+Em cada passo, exibir o número atual da contagem.
+*/
+
+
