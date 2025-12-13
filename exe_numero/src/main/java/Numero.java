@@ -11,7 +11,7 @@ public class Numero {
         if (num == 0) {
             System.out.println("O número é igual a zero");
         }
-        else if (num >= 1) {
+        else if (num > 0) {
             System.out.println("O número é positivo");
         }
         else {
@@ -21,3 +21,12 @@ public class Numero {
         sc.close();
     }
 }
+
+/* Número positivo, negativo ou zero — Resposta
+
+Ler um número.
+Se o número for igual a zero, exibir “zero”
+Se o número for maior que zero, exibir “positivo”.
+Se for menor que zero, exibir “negativo”.
+*/
+
