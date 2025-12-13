@@ -20,3 +20,19 @@ public class Validacao {
         sc.close();
     }
 }
+
+
+/* Validação de senha > Peça ao usuário para digitar uma senha. Enquanto a senha digitada for diferente de uma senha pré-definida, continue pedindo novamente.
+Quando acertar, exiba uma mensagem de acesso permitido.
+
+Validação de senha — Resposta (escrita)
+Definir uma senha correta previamente.
+Pedir ao usuário que digite uma senha.
+Enquanto a senha digitada for diferente da senha correta:
+Informar que a senha está incorreta.
+Pedir que o usuário digite a senha novamente.
+Quando a senha digitada for igual à senha correta:
+Exibir uma mensagem informando que o acesso foi permitido.
+Encerrar o processo.
+*/
+
