@@ -28,3 +28,17 @@ public class Maior {
         sc.close();
     }
 }
+
+/* 6- Maior de três números > Leia três números e informe qual deles é o maior.
+
+Ler três números informados pelo usuário.
+Comparar o primeiro número com o segundo e com o terceiro.
+Se o primeiro for maior que os dois, ele é o maior.
+Comparar o segundo número com o primeiro e com o terceiro.
+Se o segundo for maior que os dois, ele é o maior.
+Comparar o terceiro número com o primeiro e com o segundo.
+Se o terceiro for maior que os dois, ele é o maior.
+Caso contrário, os número são iguais maior.
+Exibir qual número é o maior ou exibir que os números são iguais.
+*/
+
