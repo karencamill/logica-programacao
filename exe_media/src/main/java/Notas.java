@@ -27,3 +27,17 @@ public class Notas {
 
     }
 }
+
+
+/* 10 - Média de notas > Peça ao usuário três notas. Calcule a média e informe se o aluno está aprovado (média ≥ 7) ou reprovado.
+
+Média de notas — Resposta (escrita)
+Pedir ao usuário três notas.
+Somar as três notas informadas.
+Dividir o valor da soma por 3 para calcular a média.
+Verificar o valor da média:
+Se a média for maior ou igual a 7, o aluno está aprovado.
+Caso contrário, o aluno está reprovado.
+Exibir o resultado final ao usuário
+*/
+
