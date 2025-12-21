@@ -14,8 +14,8 @@ public class Program {
         int n = sc.nextInt();
 
         while (n != 0) {
-            soma = soma + n;
-            quantidade++; // quantidade de numero digitado
+            soma = soma + n; // soma recebe ele + o número que foi digitado
+            quantidade++; // pega o valor da quantidade e acrescenta mais 1
 
             if (n % 2 == 0) {
                 par++;
@@ -41,3 +41,4 @@ public class Program {
 
     }
 }
+
