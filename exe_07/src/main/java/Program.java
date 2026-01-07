@@ -1,3 +1,17 @@
+/*1. Maior e menor número  06/01/2026
+
+Peça ao usuário vários números inteiros.
+O programa deve continuar lendo valores até que o usuário digite 0.
+Ao final, mostre:
+
+o maior número digitado
+
+o menor número digitado
+(desconsidere o zero)
+
+*/
+
+
 import java.util.Scanner;
 
 public class Program {
@@ -29,14 +43,15 @@ public class Program {
         }
 
         System.out.println();
-        System.out.println("O maior número é: " + maior);
+        System.out.println("O maior número digitado é: " + maior);
 
         System.out.println();
-        System.out.println("O menor número é: " + menor);
+        System.out.println("O menor número digitado é: " + menor);
 
         sc.close();
 
     }
 }
+
 
 
