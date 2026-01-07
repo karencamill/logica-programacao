@@ -4,7 +4,6 @@ Calcule e mostre a média apenas dos números pares digitados.*/
 
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.logging.SocketHandler;
 
 public class Program {
     public static void main(String[] args) {
@@ -48,4 +47,5 @@ public class Program {
 
     }
 }
+
 
