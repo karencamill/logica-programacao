@@ -1,10 +1,10 @@
- ## 📘 Exercícios de Lógica de Programação em Java
+ ## 📘 Exercícios de Lógica de Programação em Java 
 
 Este repositório contém exercícios de lógica de programação resolvidos em Java, com o objetivo de praticar e reforçar os fundamentos da programação e da linguagem Java.
 
 Os exercícios abordam conceitos essenciais para quem está iniciando na área de desenvolvimento de software, especialmente para estudantes e iniciantes em Java.
 
-🎯 Objetivo do Repositório
+# 🎯 Objetivo do Repositório
 
 Praticar lógica de programação
 
@@ -16,7 +16,7 @@ Servir como material de estudo e consulta
 
 Acompanhar minha evolução nos estudos 🚀
 
-🧠 Conteúdos Abordados
+# 🧠 Conteúdos Abordados
 
 Os exercícios podem incluir temas como:
 
@@ -36,23 +36,20 @@ Introdução a métodos
 
 Lógica aplicada a problemas simples
 
-☕ Tecnologias Utilizadas
+# ☕ Tecnologias Utilizadas
 
-Java
+- Java
+  
+### IDEs como:
+- IntelliJ IDEA
+- Eclipse
+- VS Code
 
-IDEs como:
-
-IntelliJ IDEA
-
-Eclipse
-
-VS Code
-
-📂 Organização do Projeto
+## 📂 Organização do Projeto
 
 Cada pasta representa um exercício de lógica de programação, contendo sua respectiva solução em Java.
 
-Exemplo:
+* Exemplo:
 
 📁 exercicio-01
  └── Main.java
@@ -63,11 +60,12 @@ Exemplo:
 📁 exercicio-03
  └── Main.java
 
-Cada pasta contém um exercício resolvido
+- Cada pasta contém um exercício resolvido
+- Os nomes das pastas indicam o número ou tema do exercício
+- O arquivo principal geralmente é o Main.java
+- Os exercícios são independentes entre si
 
-Os nomes das pastas indicam o número ou tema do exercício
+## 👤 Autora 
+Karen Camilly https://github.com/karencamill
 
-O arquivo principal geralmente é o Main.java
-
-Os exercícios são independentes entre si
 
