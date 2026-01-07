@@ -1,12 +1,13 @@
+/* Média apenas dos pares 06/01/2026
+Peça ao usuário vários números inteiros até que ele digite 0.
+Calcule e mostre a média apenas dos números pares digitados.*/
+
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.logging.SocketHandler;
 
 public class Program {
     public static void main(String[] args) {
-        /*2. Média apenas dos pares
-Peça ao usuário vários números inteiros até que ele digite 0.
-Calcule e mostre a média apenas dos números pares digitados.*/
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -47,3 +48,4 @@ Calcule e mostre a média apenas dos números pares digitados.*/
 
     }
 }
+
