@@ -1,13 +1,14 @@
-import java.util.Scanner;
-
-public class Program {
-    public static void main(String[] args) {
-
-        /*3. Sequência crescente
+/* Sequência crescente  07/01/2026
 
 Peça ao usuário vários números inteiros.
 O programa deve continuar lendo valores até que o usuário digite 0.
 Verifique se os números foram digitados em ordem crescente.*/
+
+
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -53,3 +54,4 @@ Verifique se os números foram digitados em ordem crescente.*/
 
     }
 }
+
