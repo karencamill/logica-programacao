@@ -1,4 +1,4 @@
-/* Contar maior, menor e igual a um valor**
+/* Contar maior, menor e igual a um valor 08/01/2026
 
 Peça ao usuário um número inteiro **X**.
 
@@ -6,7 +6,7 @@ Depois peça **5 números inteiros** e informe:
 
 - quantos são **maiores que X**
 - quantos são **menores que X**
-- quantos são **iguais a X***/
+- quantos são **iguais a X** */
 
 import java.util.Scanner;
 
@@ -43,3 +43,4 @@ public class Program {
 
     }
 }
+
