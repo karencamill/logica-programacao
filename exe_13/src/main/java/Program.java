@@ -1,9 +1,7 @@
-/*### **7. Número perfeito**
+/* Número perfeito  12/01/2026
 
 Peça ao usuário um número inteiro **N**.
-
 Verifique se ele é um **número perfeito**
-
 *(a soma dos seus divisores, exceto ele mesmo, é igual ao próprio número)*.*/
 
 import java.util.Scanner;
@@ -42,3 +40,4 @@ public class Program {
 
     }
 }
+
