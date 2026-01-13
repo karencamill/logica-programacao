@@ -1,3 +1,8 @@
+/*Contagem de dígitos  13/01/2026
+
+Peça ao usuário um número inteiro positivo.
+Mostre **quantos dígitos** esse número possui.*/
+
 import java.util.Scanner;
 
 public class Program {
@@ -26,3 +31,4 @@ public class Program {
         sc.close();
     }
 }
+
