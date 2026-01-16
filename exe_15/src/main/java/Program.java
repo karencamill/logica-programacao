@@ -1,4 +1,4 @@
-/* Números primos até N  14/01/2026
+/* Números primos até N  14/01/2026 
 
 Peça ao usuário um número inteiro **N**.
 Mostre todos os **números primos** entre **1 e N**.*/
@@ -32,3 +32,4 @@ public class Program {
 
     }
 }
+
