@@ -67,7 +67,6 @@ public class Program {
             }
             else if (opc == 4){
                 System.out.println("Programa encerrado");
-                break;
             }
             else {
                 System.out.println("Opção inválida");
@@ -79,4 +78,5 @@ public class Program {
 
     }
 }
+
 
