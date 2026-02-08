@@ -1,12 +1,10 @@
-/*### **10. Menu simples**
+/* Menu simples  08/02/2026
 
 Crie um menu com as opções:
-
 1. Somar dois números
 2. Subtrair dois números
 3. Multiplicar dois números
 4. Sair
-
 O menu deve repetir até o usuário escolher a opção **4**.*/
 
 import java.util.Scanner;
@@ -75,10 +73,10 @@ public class Program {
                 System.out.println("Opção inválida");
             }
 
-
         }
         
         sc.close();
 
     }
 }
+
