@@ -74,14 +74,18 @@ public class Program {
                 System.out.println();
                 System.out.println("Dividir dois números");
                 System.out.print("Digite um número: ");
-                int num1 = sc.nextInt();
+                double num1 = sc.nextInt();
                 System.out.print("Digite outro número: ");
-                int num2 = sc.nextInt();
+                double num2 = sc.nextInt();
 
-                int divisao = num1 / num2;
-
-                System.out.println();
-                System.out.println("A divisao dos números é: " + divisao);
+                if (num2 != 0) {
+                    double divisao = num1 / num2;
+                    System.out.println();
+                    System.out.println("O resultado da divisão é: " + divisao);
+                } else {
+                    System.out.println();
+                    System.out.println("Erro: não é possível dividir por zero.");
+                }
 
             }
             else if (opc == 5){
@@ -100,6 +104,7 @@ public class Program {
 
     }
 }
+
 
 
 
