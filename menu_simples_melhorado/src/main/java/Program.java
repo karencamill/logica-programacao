@@ -8,11 +8,13 @@ Crie um menu com as opções:
 
 O menu deve repetir até o usuário escolher a opção **5**.*/
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
 
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         int opc = 0;
@@ -35,34 +37,34 @@ public class Program {
                     System.out.print("Digite um número: ");
                     int a1 = sc.nextInt();
                     System.out.print("Digite outro número: ");
-                    int a2 = sc.nextInt();
+                    int b1 = sc.nextInt();
 
                     System.out.println();
-                    System.out.println("A soma dos números é: " + (a1 + a2));
+                    System.out.println("A soma dos números é: " + (a1 + b1));
                     break;
 
                 case 2:
                     System.out.println();
                     System.out.println("Subtrair dois números");
                     System.out.print("Digite um número: ");
-                    int b1 = sc.nextInt();
+                    int a2 = sc.nextInt();
                     System.out.print("Digite outro número: ");
                     int b2 = sc.nextInt();
 
                     System.out.println();
-                    System.out.println("O resultado da subtração é : " + (b1 - b2));
+                    System.out.println("O resultado da subtração é : " + (a2 - b2));
                     break;
 
                 case 3:
                     System.out.println();
                     System.out.println("Multiplicar dois números");
                     System.out.print("Digite um número: ");
-                    int c1 = sc.nextInt();
+                    int a3 = sc.nextInt();
                     System.out.print("Digite outro número: ");
-                    int c2 = sc.nextInt();
+                    int b3 = sc.nextInt();
 
                     System.out.println();
-                    System.out.println("O resultado da multiplicação é : " + (c1 * c2));
+                    System.out.println("O resultado da multiplicação é : " + (a3 * b3));
                     break;
 
                 case 4:
@@ -75,17 +77,21 @@ public class Program {
 
                     System.out.println();
                     if (b4 != 0) {
-                        System.out.printf("Resultado da divisão %.2f" , (a4 / b4));
+                        System.out.printf("Resultado da divisão %.1f" , (a4 / b4));
+                        System.out.println();
                     } else {
                         System.out.println("Erro: divisão por zero.");
+                        System.out.println();
                     }
                     break;
 
                 case 5:
+                    System.out.println();
                     System.out.println("Programa encerrado.");
                     break;
 
                 default:
+                    System.out.println();
                     System.out.println("Opção inválida.");
             }
         }
