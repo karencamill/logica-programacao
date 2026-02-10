@@ -4,7 +4,8 @@ Crie um menu com as opções:
 2. Subtrair dois números
 3. Multiplicar dois números
 4. Dividir dois números
-5. Sair
+5. Potência
+6. Sair
 
 O menu deve repetir até o usuário escolher a opção **5**.*/
 
@@ -18,7 +19,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         int opc = 0;
-        while (opc != 5) {
+        while (opc != 6) {
 
             System.out.println();
             System.out.println("1. Somar dois números");
@@ -85,7 +86,19 @@ public class Program {
                     }
                     break;
 
-                case 5:
+                 case 5:
+                    System.out.println();
+                    System.out.println("Potência");
+                    System.out.print("Digite a base: ");
+                    int a5 = sc.nextInt();
+                    System.out.print("Digite o expoente: ");
+                    int b5 = sc.nextInt();
+
+                    double resultado = Math.pow(a6, b6);
+                    System.out.println("A potência é: " + resultado);
+                    break;
+
+                case 6:
                     System.out.println();
                     System.out.println("Programa encerrado.");
                     break;
@@ -100,3 +113,4 @@ public class Program {
 
     }
 }
+
