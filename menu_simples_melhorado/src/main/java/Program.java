@@ -1,11 +1,12 @@
-/*### **10. Menu simples**
+/*### * Menu simples**
 Crie um menu com as opções:
 1. Somar dois números
 2. Subtrair dois números
 3. Multiplicar dois números
 4. Dividir dois números
 5. Potência
-6. Sair
+6. Resto da divisão
+7. Sair
 
 O menu deve repetir até o usuário escolher a opção **5**.*/
 
@@ -19,7 +20,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         int opc = 0;
-        while (opc != 6) {
+        while (opc != 7) {
 
             System.out.println();
             System.out.println("1. Somar dois números");
@@ -98,7 +99,23 @@ public class Program {
                     System.out.println("A potência é: " + resultado);
                     break;
 
-                case 6:
+                 case 6:
+                    System.out.println();
+                    System.out.println("Resto da divisão entre dois números");
+                    System.out.print("Digite o primeiro número: ");
+                    int a6 = sc.nextInt();
+                    System.out.print("Digite o segundo número: ");
+                    int b6 = sc.nextInt();
+
+                    if (b6 != 0) {
+                        int resto = a6 % b6;
+                        System.out.println("O resto da divisão é: " + resto);
+                    } else {
+                        System.out.println("Erro: não é possível dividir por zero.");
+                    }
+                    break;
+
+                case 7:
                     System.out.println();
                     System.out.println("Programa encerrado.");
                     break;
@@ -113,4 +130,5 @@ public class Program {
 
     }
 }
+
 
