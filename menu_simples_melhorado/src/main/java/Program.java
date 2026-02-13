@@ -27,7 +27,9 @@ public class Program {
             System.out.println("2. Subtrair dois números");
             System.out.println("3. Multiplicar dois números");
             System.out.println("4. Dividir dois números");
-            System.out.println("5. Sair");
+            System.out.println("5. Potência");
+            System.out.println("6. Resto da divisão");
+            System.out.println("7. Sair");
 
             System.out.print("Escolha uma opção: ");
             opc = sc.nextInt();
@@ -130,5 +132,6 @@ public class Program {
 
     }
 }
+
 
 
